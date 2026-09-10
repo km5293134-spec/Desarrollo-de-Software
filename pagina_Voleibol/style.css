@@ -290,3 +290,49 @@ footer p {
 .tarjeta-posicion:hover {
     border-color: #1d4e89;
 }
+/* REGLAS */
+.reglas {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.regla {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 22px;
+    background: #f7f9fb;
+    border-radius: 12px;
+    border-left: 4px solid #1d4e89;
+    transition: 0.3s;
+}
+
+.regla:hover {
+    transform: translateX(6px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.regla > span {
+    font-size: 25px;
+    font-weight: bold;
+    color: #e76f00;
+}
+
+.regla h3 {
+    margin-bottom: 8px;
+    color: #102a43;
+}
+
+.regla p {
+    font-size: 15px;
+    color: #555;
+}
+
+/* REGLAS EN CELULAR */
+@media (max-width: 700px) {
+    .reglas {
+        grid-template-columns: 1fr;
+    }
+}

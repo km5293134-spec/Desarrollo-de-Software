@@ -254,3 +254,39 @@ footer p {
 .hero-balon {
     font-size: 140px;
 }
+/* TARJETAS DE POSICIONES */
+.descripcion-seccion {
+    margin-bottom: 25px;
+    color: #555;
+}
+
+.tarjeta-posicion {
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.icono-posicion {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #e9f1f8;
+    font-size: 32px;
+}
+
+.tarjeta-posicion h3 {
+    margin-bottom: 12px;
+    font-size: 22px;
+}
+
+.tarjeta-posicion p {
+    color: #555;
+}
+
+.tarjeta-posicion:hover {
+    border-color: #1d4e89;
+}

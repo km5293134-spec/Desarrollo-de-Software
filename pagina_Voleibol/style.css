@@ -567,3 +567,63 @@ article:hover {
 .enlaces a:hover::after {
     width: 100%;
 }
+/* CIERRE FINAL */
+.cierre {
+    text-align: center;
+    background: linear-gradient(135deg, #1d4e89, #102a43);
+    color: white;
+    padding: 55px 30px;
+}
+
+.cierre-contenido {
+    max-width: 750px;
+    margin: auto;
+}
+
+.cierre span {
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #ffb703;
+}
+
+.cierre h2 {
+    color: white;
+    border: none;
+    padding: 0;
+    margin: 15px 0;
+    font-size: 35px;
+}
+
+.cierre p {
+    margin-bottom: 25px;
+    line-height: 1.8;
+}
+
+.cierre .boton {
+    display: inline-block;
+}
+
+/* AJUSTE FINAL PARA CELULAR */
+@media (max-width: 600px) {
+
+    .cierre {
+        padding: 40px 20px;
+    }
+
+    .cierre h2 {
+        font-size: 27px;
+    }
+
+    .cierre p {
+        font-size: 15px;
+    }
+
+    .hero {
+        padding: 35px 25px;
+    }
+
+    .hero h2 {
+        font-size: 30px;
+    }
+}

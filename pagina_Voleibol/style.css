@@ -336,3 +336,57 @@ footer p {
         grid-template-columns: 1fr;
     }
 }
+/* BENEFICIOS */
+.beneficios {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.beneficio {
+    text-align: center;
+    background: #f7f9fb;
+    border: 1px solid #e0e6eb;
+    transition: 0.3s;
+}
+
+.beneficio:hover {
+    transform: translateY(-7px);
+    border-color: #1d4e89;
+}
+
+.icono-beneficio {
+    width: 65px;
+    height: 65px;
+    margin: 0 auto 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e9f1f8;
+    border-radius: 50%;
+    font-size: 30px;
+}
+
+.beneficio h3 {
+    margin-bottom: 10px;
+    color: #1d4e89;
+}
+
+.beneficio p {
+    color: #555;
+    font-size: 15px;
+}
+
+/* BENEFICIOS EN CELULAR */
+@media (max-width: 800px) {
+    .beneficios {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 500px) {
+    .beneficios {
+        grid-template-columns: 1fr;
+    }
+}

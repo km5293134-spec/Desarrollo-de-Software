@@ -390,3 +390,53 @@ footer p {
         grid-template-columns: 1fr;
     }
 }
+/* MODALIDADES */
+.modalidades {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    margin-top: 25px;
+}
+
+.modalidad {
+    background: #f7f9fb;
+    border: 1px solid #e0e6eb;
+    transition: 0.3s;
+}
+
+.modalidad:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+}
+
+.icono-modalidad {
+    font-size: 55px;
+    margin-bottom: 15px;
+}
+
+.modalidad h3 {
+    color: #1d4e89;
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.modalidad p {
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.modalidad ul {
+    margin-left: 20px;
+}
+
+.modalidad li {
+    font-size: 15px;
+    margin: 7px 0;
+}
+
+/* MODALIDADES EN CELULAR */
+@media (max-width: 700px) {
+    .modalidades {
+        grid-template-columns: 1fr;
+    }
+}
